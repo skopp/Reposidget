@@ -1,2 +1,147 @@
 body {
+    font-family: helvetica, arial, freesans, clean, sans-serif;
+}
+
+
+div.reposidget {
+    width: 400px;
+    font-family: helvetica, arial, freesans, clean, sans-serif;
+    color: #666;
+}
+
+a.reposidget, .reposidget a {
+    color: #4183c4;
+    text-decoration: none;
+}
+
+.reposidget-header {
+    height: 36px;
+    line-height: 36px;
+    background: #fafafa;
+    background: -webkit-linear-gradient(#fafafa, #eaeaea);
+    border: 1px solid #eaeaea;
+    border-radius: 3px 3px 0 0;
+    padding: 0 10px 0 0;
+}
+
+.reposidget-header h2 {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0;
+    padding: 0 0 0 32px;
+    background: url(icon/repo.png) 7px 7px no-repeat;
+}
+
+.reposidget-header h2 strong {
+    font-weight: bold;
+}
+
+.reposidget-header span {
+    display: inline-block;
+    float: right;
+    height: 26px;
+    margin: 6px 0 0 0;
+}
+
+.reposidget-header span a {
+    vertical-align: top;
+    border: 1px solid #ddd;
+    height: 24px;
+    line-height: 24px;
+    display: inline-block;
+    color: #666;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 0 5px 0 24px;
+}
+
+.reposidget-header .star {
+    border-radius: 3px 0 0 3px;
+    background: #fff url(icon/star.png) 6px 5px no-repeat;
+}
+
+.reposidget-header .star:hover {
+    color: #fff;
+    background: #4183c4 url(icon/star-on.png) 6px 5px no-repeat;
+}
+
+.reposidget-header .fork {
+    border-left: none;
+    border-radius: 0 3px 3px 0;
+    background: #fff url(icon/fork.png) 7px 5px no-repeat;
+}
+
+.reposidget-header .fork:hover {
+    color: #fff;
+    background: #4183c4 url(icon/fork-on.png) 7px 5px no-repeat;
+}
+
+.reposidget-content {
+    padding: 10px 10px 8px 10px;
+    background: #fafafa;
+    border: 1px solid #ddd;
+    box-shadow: inset 0 1px 1px #fff; 
+}
+
+.reposidget-content p {
+    margin: 0;
+    font-size: 13px;
+    line-height: 21px;
+}
+
+.reposidget-content a:hover {
+    text-decoration: underline;
+}
+
+.reposidget-footer {
+    height: 46px;
+    background: #fafafa url(icon/time.png) 10px 16px no-repeat;
+    border: 1px solid #ddd;
+    border-top: none;
+    border-radius: 0 0 3px 3px;
+    padding: 0 10px 0 30px;
+}
+
+.reposidget-footer span {
+    color: #888;
+    line-height: 45px;
+    font-size: 13px;
+}
+
+.reposidget-footer a {
+    float: right;
+    margin: 6px 0 0 0;
+    display: inline-block;
+    padding: 8px 15px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #666;
+    text-shadow: rgba(255, 255, 255, 0.898438) 0px 1px;
+    background: -webkit-linear-gradient(top, whitesmoke, #e5e5e5);
+    border-radius: 3px;
+    border: 1px solid #ddd;
+    border-bottom-color: #bbb;
+    box-shadow: rgba(0, 0, 0, 0.0976563) 0px 1px 3px;
+    -webkit-user-select: none;
+}
+
+.reposidget-footer a:hover {
+    color: #337797;
+    text-shadow: rgba(255, 255, 255, 0.898438) 0px 1px;
+    background: -webkit-linear-gradient(top, #f0f7fa, #d8eaf2);
+    border-radius: 3px;
+    border: 1px solid #cbe3ee;
+    border-bottom-color: #97c7dd;
+    box-shadow: rgba(0, 0, 0, 0.0976563) 0px 1px 3px;
+}
+
+.reposidget-footer a:active {
+    color: #fff;
+    text-shadow: rgba(0, 0, 0, 0.296875) 0px -1px 0px;
+    background: -webkit-linear-gradient(top, #0770a0, #0ca6dd);
+    border-radius: 3px;
+    border: 1px solid #2a65a0;
+    border-bottom-color: #0770a0;
+    box-shadow: rgba(0, 0, 0, 0.0976563) 0px 1px 3px;
 }
