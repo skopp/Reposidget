@@ -15,3 +15,8 @@ Reposidget = Repository + Widget
 **Try out the demo**
 
 + http://myst729.github.com/Reposidget
+
+
+**Screenshot**
+
+http://myst729.github.com/Reposidget/screenshot.png
