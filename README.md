@@ -19,4 +19,4 @@ Reposidget = Repository + Widget
 
 **Screenshot**
 
-http://myst729.github.com/Reposidget/screenshot.png
+<img src="screenshot.png" alt="Reposidget = Repository + Widget" />
