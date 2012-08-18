@@ -7,8 +7,8 @@ a.reposidget {
 }
 
 div.reposidget {
+    font-family: helvetica, arial, freesans, clean, sans-serif !important;
     width: 400px;
-    font-family: helvetica, arial, freesans, clean, sans-serif;
     color: #666;
     display: block;
     clear: both;
@@ -16,20 +16,22 @@ div.reposidget {
 }
 
 .reposidget a {
+    font-family: helvetica, arial, freesans, clean, sans-serif !important;
     color: #4183c4;
     text-decoration: none;
 }
 
 .reposidget-header {
+    font-family: helvetica, arial, freesans, clean, sans-serif !important;
     height: 36px;
     line-height: 36px;
     background: #fafafa;
-	background: -webkit-gradient(linear, 0 0, 0 100%, from(#fafafa), to(#eaeaea));
-	background: -webkit-linear-gradient(top, #fafafa, #eaeaea);
-	background: -moz-linear-gradient(top, #fafafa, #eaeaea);
-	background: -ms-linear-gradient(top, #fafafa, #eaeaea);
-	background: -o-linear-gradient(top, #fafafa, #eaeaea);
-	background: linear-gradient(top, #fafafa, #eaeaea);
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#fafafa), to(#eaeaea));
+    background: -webkit-linear-gradient(top, #fafafa, #eaeaea);
+    background: -moz-linear-gradient(top, #fafafa, #eaeaea);
+    background: -ms-linear-gradient(top, #fafafa, #eaeaea);
+    background: -o-linear-gradient(top, #fafafa, #eaeaea);
+    background: linear-gradient(top, #fafafa, #eaeaea);
     -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#fafafa', endColorstr='#eaeaea')";
     border: 1px solid #eaeaea;
     border-radius: 3px 3px 0 0;
@@ -37,6 +39,7 @@ div.reposidget {
 }
 
 .reposidget-header h2 {
+    font-family: helvetica, arial, freesans, clean, sans-serif !important;
     display: inline-block;
     font-size: 16px;
     font-weight: normal;
@@ -46,10 +49,12 @@ div.reposidget {
 }
 
 .reposidget-header h2 strong {
+    font-family: helvetica, arial, freesans, clean, sans-serif !important;
     font-weight: bold;
 }
 
 .reposidget-header span {
+    font-family: helvetica, arial, freesans, clean, sans-serif !important;
     display: inline-block;
     float: right;
     height: 26px;
@@ -57,6 +62,7 @@ div.reposidget {
 }
 
 .reposidget-header span span {
+    font-family: helvetica, arial, freesans, clean, sans-serif !important;
     vertical-align: top;
     margin: 0;
     float: none;
@@ -71,17 +77,20 @@ div.reposidget {
 }
 
 .reposidget-header .star {
+    font-family: helvetica, arial, freesans, clean, sans-serif !important;
     border-radius: 3px 0 0 3px;
     background: #fff url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAMCAYAAABSgIzaAAAAwUlEQVQoz42SMQ6EIBREuROX0BOY2GzcmmaLTTBxvYM9jVyEC0jJTZTYsQ4R4hKIW7xk/DMT5SNxzpEUa23X9/0IoHMZkhtqrd9VVY0A+ra4rusTcM5HSqkHOsx/imEIlmXxbwqlAGbwrlkihBjS4B3okH3fH0op/m8JWXTiFo0xr7quiwV4yIQtx8Nu29bN81z8bHjIZLd63WYKvOJ1MMaKRXjFYtM0PiSlHI7nFkBjBq9YnKbpg/D1Nzt1e3ox+wXh13nYaOboUAAAAABJRU5ErkJggg==') 6px 6px no-repeat;
 }
 
 .reposidget-header .fork {
+    font-family: helvetica, arial, freesans, clean, sans-serif !important;
     border-left: none;
     border-radius: 0 3px 3px 0;
     background: #fff url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAOCAYAAAAbvf3sAAAA8UlEQVQoz4WRTQqDMBSEXXbRu0gJdCH0AO66KP6cQ4pUJLcSFDyBC0VQ/EHPYt88NKhUu5gwTPJlwos2TZOWJIknhJAQPLIjaX3f323blnVds+CRnQHCcRxZFAULnrILNuM4fi/N8AxgSdNUbZD3kbVte903U2YwMI6j7rquhMjzc6jFQFue56y5WTDQdd0dAUT+tryX2j6rZk89iaoUQF4BwzAYSzN5/S/g+z7fHgSBVFNaA0v9WqZpyrIsnxugaZqfAA5XVfXa/AOWKIrUWMMwlKc/TTc8LMvazBvZIUCHeN5ZlrHgkR0C87y9/byP9AVjF5fB2Yv1MAAAAABJRU5ErkJggg==') 7px 5px no-repeat;
 }
 
 .reposidget-content {
+    font-family: helvetica, arial, freesans, clean, sans-serif !important;
     padding: 10px 10px 8px 10px;
     background: #fafafa;
     border: 1px solid #ddd;
@@ -89,21 +98,30 @@ div.reposidget {
 }
 
 .reposidget-content p {
+    font-family: helvetica, arial, freesans, clean, sans-serif !important;
     margin: 0;
     font-size: 13px;
     line-height: 21px;
 }
 
 .reposidget-content p.none {
+    font-family: helvetica, arial, freesans, clean, sans-serif !important;
     font-style: italic;
     color: #999;
 }
 
+.reposidget-content strong {
+    font-family: helvetica, arial, freesans, clean, sans-serif !important;
+    line-height: 1.25 !important;
+}
+
 .reposidget-content a:hover {
+    font-family: helvetica, arial, freesans, clean, sans-serif !important;
     text-decoration: underline;
 }
 
 .reposidget-footer {
+    font-family: helvetica, arial, freesans, clean, sans-serif !important;
     height: 46px;
     background: #fcfcfc url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAAnklEQVQoz6WSwQ2AIAxFuwZ7MIo7OAbswhhcWMIxPLgA2JpPUrUkGg4vhvofKVDKOZPCM5EpzA4Kal5ntbQyG9MGbMjcRCkcTGUSsyhhQa0is3bRYzf5EVprJHRRrQMykvWE/iWUesgSUUuoR8Lhr5Y+iP0IhXBzsnCW+MDhu0+JZqsWz1bNyxmIt8sxn8OQXs8xGgAHhgMwNXK/h/wEnk4tbxxjZ0oAAAAASUVORK5CYII=') 10px 16px no-repeat;
     border: 1px solid #ddd;
@@ -113,26 +131,29 @@ div.reposidget {
 }
 
 .reposidget-footer span {
+    font-family: helvetica, arial, freesans, clean, sans-serif !important;
     color: #888;
     line-height: 45px;
     font-size: 13px;
 }
 
 .reposidget-footer a {
+    font-family: helvetica, arial, freesans, clean, sans-serif !important;
     float: right;
     margin: 6px 0 0 0;
     display: inline-block;
     padding: 8px 15px;
+    line-height: 1.25;
     font-size: 12px;
     font-weight: bold;
     color: #666;
     text-shadow: rgba(255, 255, 255, 0.898438) 0px 1px;
-	background: -webkit-gradient(linear, 0 0, 0 100%, from(#f5f5f5), to(#e5e5e5));
-	background: -webkit-linear-gradient(top, #f5f5f5, #e5e5e5);
-	background: -moz-linear-gradient(top, #f5f5f5, #e5e5e5);
-	background: -ms-linear-gradient(top, #f5f5f5, #e5e5e5);
-	background: -o-linear-gradient(top, #f5f5f5, #e5e5e5);
-	background: linear-gradient(top, #f5f5f5, #e5e5e5);
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#f5f5f5), to(#e5e5e5));
+    background: -webkit-linear-gradient(top, #f5f5f5, #e5e5e5);
+    background: -moz-linear-gradient(top, #f5f5f5, #e5e5e5);
+    background: -ms-linear-gradient(top, #f5f5f5, #e5e5e5);
+    background: -o-linear-gradient(top, #f5f5f5, #e5e5e5);
+    background: linear-gradient(top, #f5f5f5, #e5e5e5);
     -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#f5f5f5', endColorstr='#e5e5e5')";
     border-radius: 3px;
     border: 1px solid #ddd;
@@ -144,12 +165,12 @@ div.reposidget {
 .reposidget-footer a:hover {
     color: #337797;
     text-shadow: rgba(255, 255, 255, 0.898438) 0px 1px;
-	background: -webkit-gradient(linear, 0 0, 0 100%, from(#f0f7fa), to(#d8eaf2));
-	background: -webkit-linear-gradient(top, #f0f7fa, #d8eaf2);
-	background: -moz-linear-gradient(top, #f0f7fa, #d8eaf2);
-	background: -ms-linear-gradient(top, #f0f7fa, #d8eaf2);
-	background: -o-linear-gradient(top, #f0f7fa, #d8eaf2);
-	background: linear-gradient(top, #f0f7fa, #d8eaf2);
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#f0f7fa), to(#d8eaf2));
+    background: -webkit-linear-gradient(top, #f0f7fa, #d8eaf2);
+    background: -moz-linear-gradient(top, #f0f7fa, #d8eaf2);
+    background: -ms-linear-gradient(top, #f0f7fa, #d8eaf2);
+    background: -o-linear-gradient(top, #f0f7fa, #d8eaf2);
+    background: linear-gradient(top, #f0f7fa, #d8eaf2);
     -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#f0f7fa', endColorstr='#d8eaf2')";
     border: 1px solid #cbe3ee;
     border-bottom-color: #97c7dd;
@@ -158,12 +179,12 @@ div.reposidget {
 .reposidget-footer a:active {
     color: #fff;
     text-shadow: rgba(0, 0, 0, 0.296875) 0px -1px 0px;
-	background: -webkit-gradient(linear, 0 0, 0 100%, from(#0770a0), to(#0ca6dd));
-	background: -webkit-linear-gradient(top, #0770a0, #0ca6dd);
-	background: -moz-linear-gradient(top, #0770a0, #0ca6dd);
-	background: -ms-linear-gradient(top, #0770a0, #0ca6dd);
-	background: -o-linear-gradient(top, #0770a0, #0ca6dd);
-	background: linear-gradient(top, #0770a0, #0ca6dd);
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#0770a0), to(#0ca6dd));
+    background: -webkit-linear-gradient(top, #0770a0, #0ca6dd);
+    background: -moz-linear-gradient(top, #0770a0, #0ca6dd);
+    background: -ms-linear-gradient(top, #0770a0, #0ca6dd);
+    background: -o-linear-gradient(top, #0770a0, #0ca6dd);
+    background: linear-gradient(top, #0770a0, #0ca6dd);
     -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#0770a0', endColorstr='#0ca6dd')";
     border: 1px solid #2a65a0;
     border-bottom-color: #0770a0;
