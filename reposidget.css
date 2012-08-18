@@ -94,6 +94,11 @@ div.reposidget {
     line-height: 21px;
 }
 
+.reposidget-content p.none {
+    font-style: italic;
+    color: #999;
+}
+
 .reposidget-content a:hover {
     text-decoration: underline;
 }

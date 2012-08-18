@@ -5,8 +5,18 @@ function reposidget(obj) {
     var repohook = document.getElementById('repo-' + repoinfo.full_name.replace('/', '_'));
     var repojson = document.getElementById('json-' + repoinfo.full_name.replace('/', '_'));
     var container = document.createElement('div');
+    var repoContent;
     var seconds = (new Date() - new Date(repoinfo.pushed_at)) / 1000;
     var prettyTime;
+    if(repoinfo.description && repoinfo.homepage) {
+        repoContent = '<p>' + repoinfo.description + '</p><p><strong><a href="' + repoinfo.homepage + '">' + repoinfo.homepage + '</a></strong></p>';
+    } else if(repoinfo.description) {
+        repoContent = '<p>' + repoinfo.description + '</p>';
+    } else if(repoinfo.homepage) {
+        repoContent = '<p><strong><a href="' + repoinfo.homepage + '">' + repoinfo.homepage + '</a></strong></p>';
+    } else {
+        repoContent = '<p class="none">No description or homepage.</p>';
+    }
     if(seconds < 60) {
         prettyTime = 'just now';
     } else if(seconds < 120) {
@@ -29,7 +39,7 @@ function reposidget(obj) {
         prettyTime = 'on ' + repoinfo.pushed_at.substring(0, 10);
     }
     container.className = 'reposidget';
-    container.innerHTML = '<div class="reposidget-header"><h2><a href="https://github.com/' + repoinfo.owner.login + '">' + repoinfo.owner.login + '</a> / <strong><a href="' + repoinfo.html_url + '">' + repoinfo.name + '</a></strong></h2><span><span class="star">' + repoinfo.watchers_count + '</span><span class="fork">' + repoinfo.watchers_count + '</span></span></div><div class="reposidget-content"><p>' + repoinfo.description + '</p><p><strong><a href="' + repoinfo.homepage + '">' + repoinfo.homepage + '</a></strong></p></div><div class="reposidget-footer"><span>Last updated ' + prettyTime + '.</span><a href="' + repoinfo.html_url + '/zipball/' + repoinfo.master_branch + '">Download as zip</a></div>';
+    container.innerHTML = '<div class="reposidget-header"><h2><a href="https://github.com/' + repoinfo.owner.login + '">' + repoinfo.owner.login + '</a> / <strong><a href="' + repoinfo.html_url + '">' + repoinfo.name + '</a></strong></h2><span><span class="star">' + repoinfo.watchers_count + '</span><span class="fork">' + repoinfo.watchers_count + '</span></span></div><div class="reposidget-content">' + repoContent + '</div><div class="reposidget-footer"><span>Last updated ' + prettyTime + '.</span><a href="' + repoinfo.html_url + '/zipball/' + repoinfo.master_branch + '">Download as zip</a></div>';
     repohook.parentNode.insertBefore(container, repohook);
     repohook.style.display = 'none';
     document.body.removeChild(repojson);
