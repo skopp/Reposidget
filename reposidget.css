@@ -204,7 +204,6 @@ div.reposidget {
     border-bottom-color: #0770a0;
 }
 
-
 .reposidget-footer .social {
     font-family: helvetica, arial, freesans, clean, sans-serif !important;
     display: none;
@@ -239,7 +238,6 @@ div.reposidget {
     border-radius: 0 3px 3px 0;
     background: #fff url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAOCAYAAAAbvf3sAAAA8UlEQVQoz4WRTQqDMBSEXXbRu0gJdCH0AO66KP6cQ4pUJLcSFDyBC0VQ/EHPYt88NKhUu5gwTPJlwos2TZOWJIknhJAQPLIjaX3f323blnVds+CRnQHCcRxZFAULnrILNuM4fi/N8AxgSdNUbZD3kbVte903U2YwMI6j7rquhMjzc6jFQFue56y5WTDQdd0dAUT+tryX2j6rZk89iaoUQF4BwzAYSzN5/S/g+z7fHgSBVFNaA0v9WqZpyrIsnxugaZqfAA5XVfXa/AOWKIrUWMMwlKc/TTc8LMvazBvZIUCHeN5ZlrHgkR0C87y9/byP9AVjF5fB2Yv1MAAAAABJRU5ErkJggg==') 7px 5px no-repeat;
 }
-
 
 
 @media (max-width: 450px) {
