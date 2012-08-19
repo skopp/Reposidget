@@ -6,8 +6,6 @@ function reposidget(obj) {
     var repojson = document.getElementById('json-' + repoinfo.full_name.replace('/', '_'));
     var container = document.createElement('div');
     var repoContent;
-    var seconds = (new Date() - new Date(repoinfo.pushed_at)) / 1000;
-    var prettyTime;
     if(repoinfo.description && repoinfo.homepage) {
         repoContent = '<p>' + repoinfo.description + '</p><p class="homepage"><strong><a href="' + repoinfo.homepage + '">' + repoinfo.homepage + '</a></strong></p>';
     } else if(repoinfo.description) {
@@ -17,29 +15,8 @@ function reposidget(obj) {
     } else {
         repoContent = '<p class="none">No description or homepage.</p>';
     }
-    if(seconds < 60) {
-        prettyTime = 'just now';
-    } else if(seconds < 120) {
-        prettyTime = '1 minute ago';
-    } else if(seconds < 3600) {
-        prettyTime = Math.floor(seconds / 60) + ' minutes ago';
-    } else if(seconds < 7200) {
-        prettyTime = '1 hour ago';
-    } else if(seconds < 86400) {
-        prettyTime = Math.floor(seconds / 3600) + ' hours ago';
-    } else if(seconds < 172800) {
-        prettyTime = 'yesterday';
-    } else if(seconds < 604800) {
-        prettyTime = Math.floor(seconds / 86400) + ' days ago';
-    } else if(seconds < 1209600) {
-        prettyTime = '1 week ago';
-    } else if(seconds < 2592000) {
-        prettyTime = Math.floor(seconds / 604800) + ' weeks ago';
-    } else {
-        prettyTime = 'on ' + repoinfo.pushed_at.substring(0, 10);
-    }
     container.className = 'reposidget';
-    container.innerHTML = '<div class="reposidget-header"><h2><a href="https://github.com/' + repoinfo.owner.login + '">' + repoinfo.owner.login + '</a>&nbsp;/&nbsp;<strong><a href="' + repoinfo.html_url + '">' + repoinfo.name + '</a></strong></h2><span class="social"><span class="star">' + repoinfo.watchers_count + '</span><span class="fork">' + repoinfo.forks_count + '</span></span></div><div class="reposidget-content">' + repoContent + '</div><div class="reposidget-footer"><span class="update">Last updated ' + prettyTime + '.</span><span class="social"><span class="star">' + repoinfo.watchers_count + '</span><span class="fork">' + repoinfo.forks_count + '</span></span><a href="' + repoinfo.html_url + '/zipball/' + repoinfo.master_branch + '">Download as zip</a></div>';
+    container.innerHTML = '<div class="reposidget-header"><h2><a href="https://github.com/' + repoinfo.owner.login + '">' + repoinfo.owner.login + '</a>&nbsp;/&nbsp;<strong><a href="' + repoinfo.html_url + '">' + repoinfo.name + '</a></strong></h2></div><div class="reposidget-content">' + repoContent + '</div><div class="reposidget-footer"><span class="social"><span class="star">' + repoinfo.watchers_count + '</span><span class="fork">' + repoinfo.forks_count + '</span></span><a href="' + repoinfo.html_url + '/zipball/' + repoinfo.master_branch + '">Download as zip</a></div>';
     repohook.parentNode.insertBefore(container, repohook);
     repohook.style.display = 'none';
     document.body.removeChild(repojson);
