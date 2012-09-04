@@ -1,4 +1,4 @@
-Reposidget = Repository + Widget 
+Reposidget = Repository + Widget
 --------------------------------
 
 **About this repo**
