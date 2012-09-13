@@ -19,4 +19,4 @@ Reposidget = Repository + Widget
 
 **Screenshot**
 
-![Reposidget = Repository + Widget](https://raw.github.com/myst729/Reposidget/master/screenshot.png)
+![Reposidget = Repository + Widget](https://raw.github.com/myst729/Reposidget/gh-pages/screenshot.png)
