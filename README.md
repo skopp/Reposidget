@@ -9,7 +9,7 @@ Reposidget = Repository + Widget
 
 **Read the blog post**
 
-+ not written yet
++ http://forcefront.com/2012/reposidget-github-repo-widget/
 
 
 **Try out the demo**
