@@ -24,7 +24,6 @@ div.reposidget {
 .reposidget-header {
     font-family: helvetica, arial, freesans, clean, sans-serif !important;
     height: 36px;
-    line-height: 36px;
     background: #fafafa;
     background: -webkit-gradient(linear, 0 0, 0 100%, from(#fafafa), to(#eaeaea));
     background: -webkit-linear-gradient(top, #fafafa, #eaeaea);
@@ -41,6 +40,8 @@ div.reposidget {
 }
 
 .reposidget-header h2 {
+    height: 36px;
+    line-height: 36px;
     font-family: helvetica, arial, freesans, clean, sans-serif !important;
     overflow: hidden;
     text-overflow: ellipsis;
