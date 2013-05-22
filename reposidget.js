@@ -16,7 +16,7 @@ function reposidget(obj) {
         repoContent = '<p class="none">No description or homepage.</p>';
     }
     container.className = 'reposidget';
-    container.innerHTML = '<div class="reposidget-header"><h2><a href="https://github.com/' + repoinfo.owner.login + '">' + repoinfo.owner.login + '</a>&nbsp;/&nbsp;<strong><a href="' + repoinfo.html_url + '">' + repoinfo.name + '</a></strong></h2></div><div class="reposidget-content">' + repoContent + '</div><div class="reposidget-footer"><span class="social"><span class="star">' + repoinfo.watchers_count + '</span><span class="fork">' + repoinfo.forks_count + '</span></span><a href="' + repoinfo.html_url + '/zipball/' + repoinfo.master_branch + '">Download as zip</a></div>';
+    container.innerHTML = '<div class="reposidget-header"><h2><a href="https://github.com/' + repoinfo.owner.login + '">' + repoinfo.owner.login + '</a>&nbsp;/&nbsp;<strong><a href="' + repoinfo.html_url + '">' + repoinfo.name + '</a></strong></h2></div><div class="reposidget-content">' + repoContent + '</div><div class="reposidget-footer"><span class="social"><span class="star">' + repoinfo.watchers_count + '</span><span class="fork">' + repoinfo.forks_count + '</span></span><a href="' + repoinfo.html_url + '/archive/' + repoinfo.master_branch + '.zip">Download as zip</a></div>';
     repohook.parentNode.insertBefore(container, repohook);
     repohook.style.display = 'none';
     document.body.removeChild(repojson);
