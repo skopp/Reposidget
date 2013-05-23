@@ -23,16 +23,7 @@ function reposidget(obj) {
 }
 
 function format(num) {
-    var numString = (typeof num === 'string') ? num : num.toString();
-    var starter = numString.length % 3;
-    var arr = [];
-    if(starter > 0) {
-        arr.push(numString.substring(0, starter));
-    }
-    while(starter < numString.length) {
-        arr.push(numString.substring(starter, starter += 3));
-    }
-    return arr.join(',');
+    return (num + '').replace(/\B(?=(?:\d{3})+(?!\d))/g, ',');
 }
 
 if(!document.getElementsByClassName) {
