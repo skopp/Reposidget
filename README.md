@@ -14,9 +14,9 @@ Reposidget = Repository + Widget
 
 **Try out the demo**
 
-+ http://myst729.github.com/Reposidget
++ http://myst729.github.io/Reposidget
 
 
 **Screenshot**
 
-![Reposidget = Repository + Widget](https://raw.github.com/myst729/Reposidget/gh-pages/screenshot.png)
+![Reposidget = Repository + Widget](http://myst729.github.io/Reposidget/screenshot.png)
